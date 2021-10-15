@@ -49,3 +49,6 @@ y para lanzar los tests
    2. Ejecutar los siguientes pasos por este orden:
       1. Compilar imagen de Docker y enviarla al [container registry de Github](https://docs.github.com/es/packages/working-with-a-github-packages-registry/working-with-the-container-registry)
       2. Usar docker-compose o alguna otra forma para conectarse al servidor y reemplazar la imagen actual por la que se acaba de subir.
+
+
+sasasaa

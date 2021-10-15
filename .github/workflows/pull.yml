@@ -28,8 +28,12 @@ jobs:
     - name: Build Binaries
       run: make build
 
-    - name: Run
-      run: make run-docker
+    - name: Compose
+      run: docker-compose up -d
+      
+    - name: Curl
+      run: curl --fail http://localhost:8080/apis    
+      
 
     - name: Accept
       run: sleep 10 && make accept

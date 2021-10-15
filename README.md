@@ -2,6 +2,8 @@
 
 API REST para gestionar libros.
 
+CAMBIO 1.0
+
 ## Cómo funciona
 
 La API se ha implementado con una pequeña aplicación en Go.
